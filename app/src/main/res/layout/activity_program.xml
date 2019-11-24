@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_background"
-    tools:context=".activity_program">
+    tools:context=".programActivity">
     <LinearLayout
         android:id="@+id/programa"
         android:layout_width="match_parent"
@@ -80,12 +80,21 @@
                     android:src="@drawable/dinero" />
 
             </LinearLayout>
-
-            <TextView
-                android:id="@+id/txtFinal"
-                android:layout_width="match_parent"
+            <LinearLayout
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                >
+                <TextView
+                    android:id="@+id/txtFinal"
+                    style="@android:style/Widget.Holo.Light.TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
 
         </LinearLayout>
     </LinearLayout>

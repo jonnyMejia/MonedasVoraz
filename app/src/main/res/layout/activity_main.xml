@@ -63,14 +63,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Explore"
+            android:text="Algoritmo Voraz"
             android:textColor="#FFF"
             android:textSize="24sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Simply makes design good"
+            android:text="Algoritmica III"
             android:textColor="#FFF"
             android:textSize="16sp" />
 
@@ -156,9 +156,10 @@
 
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="70dp"
+            android:gravity="center"
             android:orientation="horizontal">
 
 
@@ -171,38 +172,18 @@
 
 
                 <ImageView
+                    android:id="@+id/imgWeb"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_marginBottom="4dp"
+                    android:clickable="true"
+                    android:onClick="onClick"
                     android:src="@drawable/web_git" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Git_Hub"
-                    android:textColor="#0E1843"
-                    android:textSize="22sp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="50dp"
-                android:gravity="center"
-                android:orientation="vertical">
-
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_marginBottom="4dp"
-                    android:src="@drawable/bugcon" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Reports"
                     android:textColor="#0E1843"
                     android:textSize="22sp" />
 

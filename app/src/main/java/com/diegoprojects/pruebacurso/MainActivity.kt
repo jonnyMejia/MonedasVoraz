@@ -43,7 +43,11 @@ class MainActivity : AppCompatActivity(),View.OnClickListener{
                 startActivity(intent)
             }
             R.id.imgProgram->{
-                intent=Intent(this,  activity_program::class.java)
+                intent=Intent(this,  programActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.imgWeb->{
+                intent=Intent(this,  githubActivity::class.java)
                 startActivity(intent)
             }
         }

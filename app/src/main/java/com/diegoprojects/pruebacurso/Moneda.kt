@@ -22,10 +22,9 @@ constructor(nombre:String,valor:Double):this(){
         var moneda11= Moneda("200 Soles",200.0)
         var monedas= arrayOf(moneda11,moneda10,moneda9,
             moneda8,moneda7,moneda6,moneda5,moneda4,
-            moneda3,moneda2,moneda1
-        )
+            moneda3,moneda2,moneda1)
         return monedas
-          }
+       }
 
 
 }
